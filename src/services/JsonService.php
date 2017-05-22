@@ -28,7 +28,7 @@ class JsonService extends Component
      *
      * @return mixed
      */
-    public function decode($name = "")
+    public function json_decode($name = "")
     {
 		return json_decode($name);
     }

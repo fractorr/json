@@ -39,7 +39,7 @@ class JsonTwigExtension extends \Twig_Extension
     public function getFilters()
     {
         return [
-            new \Twig_SimpleFilter('decode', [$this, 'decode']),
+            new \Twig_SimpleFilter('json_decode', [$this, 'json_decode']),
         ];
     }
 
@@ -49,7 +49,7 @@ class JsonTwigExtension extends \Twig_Extension
     public function getFunctions()
     {
         return [
-            new \Twig_SimpleFunction('decode', [$this, 'decode']),
+            new \Twig_SimpleFunction('json_decode', [$this, 'json_decode']),
         ];
     }
 
@@ -60,8 +60,8 @@ class JsonTwigExtension extends \Twig_Extension
      *
      * @return mixed
      */
-    public function decode($name)
+    public function json_decode($name)
     {
-        return Json::$plugin->json->decode($name);
+        return Json::$plugin->json->json_decode($name);
     }
 }
