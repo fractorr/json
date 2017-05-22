@@ -1,6 +1,6 @@
 <?php
 /**
- * Jsondecode plugin for Craft CMS 3.x
+ * Json plugin for Craft CMS 3.x
  *
  * @link      https://fractorr.com/
  * @copyright Copyright (c) 2017 fractorr
@@ -16,18 +16,18 @@ use Craft;
 use craft\base\Plugin;
 
 /**
- * Class Jsondecode
+ * Class Json
  *
  * @author    fractorr
- * @package   Jsondecode
+ * @package   Json
  * @since     1.1.0
  *
- * @property  JsondecodeService    jsondecode
+ * @property  Json Service    jsondecode
  */
 class Json extends Plugin
 {
     /**
-     * @var Jsondecode
+     * @var Json
      */
     public static $plugin;
 
