@@ -16,7 +16,7 @@ use craft\base\Component;
  * JSON Decode service
  *
  * @author    fractorr
- * @package   JSONDecode
+ * @package   json
  * @since     1.0.0
  */
 class JsonService extends Component

@@ -17,7 +17,7 @@ use Craft;
  * Jsondecode twig extension
  *
  * @author    fractorr
- * @package   JSONDecode
+ * @package   json
  * @since     1.0.0
  */
 class JsonTwigExtension extends \Twig_Extension
