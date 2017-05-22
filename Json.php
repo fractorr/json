@@ -41,7 +41,7 @@ class Json extends Plugin
         $this->name = $this->getName();
 
         // Add in our Twig extensions
-        Craft::$app->view->twig->addExtension(new JsondecodeTwigExtension());
+        Craft::$app->view->twig->addExtension(new JsonTwigExtension());
 
         Craft::info(
             Craft::t(
@@ -62,13 +62,5 @@ class Json extends Plugin
     public function getName()
     {
         return Craft::t('json', 'Json');
-    }
-
-    /**
-     * @inheritdoc
-     */
-    public function defineTemplateComponent()
-    {
-        return JsonVariable::class;
     }
 }
