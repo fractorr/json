@@ -2,7 +2,7 @@
    "name": "fractorr/json",
     "description": "A simple plugin for decoing JSON within Craft CMS templates.",
     "type": "craft-plugin",
-    "version": "1.0.0",
+    "version": "1.2.0",
     "minimum-stability": "beta",
     "keywords": [
         "craft",
