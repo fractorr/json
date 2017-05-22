@@ -3,23 +3,13 @@
     "description": "A simple plugin for decoing JSON within Craft CMS templates.",
     "type": "craft-plugin",
     "version": "1.0.0",
+    "minimum-stability": "dev",
     "keywords": [
         "craft",
         "cms",
         "craftcms",
         "craft-plugin",
         "json"
-    ],
-    "support": {
-        "docs": "https://github.com/fractorr/json/blob/craft3/README.md",
-        "issues": "https://github.com/fractorr/json/issues"
-    },
-    "license": "MIT",
-    "authors": [
-        {
-          "name": "fractorr",
-          "homepage": "https://fractorr.com/"
-        }
     ],
     "require": {
         "craftcms/cms": "~3.0.0-beta.1"
