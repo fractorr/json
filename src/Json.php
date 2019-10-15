@@ -41,7 +41,7 @@ class Json extends Plugin
         $this->name = $this->getName();
 
         // Add in our Twig extensions
-        Craft::$app->view->twig->addExtension(new JsonTwigExtension());
+        Craft::$app->view->registerTwigExtension(new JsonTwigExtension());
 
         Craft::info(
             Craft::t(
